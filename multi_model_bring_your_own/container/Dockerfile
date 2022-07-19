@@ -11,7 +11,8 @@ RUN apt-get update && \
     build-essential \
     ca-certificates \
     openjdk-8-jdk-headless \
-    python3-dev \
+    python3.7-dev \
+		python3.7-distutils \
     curl \
     vim \
     && rm -rf /var/lib/apt/lists/* \
